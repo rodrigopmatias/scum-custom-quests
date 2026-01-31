@@ -30,16 +30,16 @@
             "Fish_Sardine",
             "Fish_Dentex",
             "Fish_Orata",
-			"Fish_Tuna",
-			"Fish_Bass",
+            "Fish_Tuna",
+            "Fish_Bass",
             "Fish_Catfish",
-			"Fish_Pike",
-			"Fish_Carp",
-			"Fish_Amur",
-			"Fish_Chub",
-			"Fish_Ruffe",
-			"Fish_PrussianCarp",
-			"Fish_CrucianCarp"
+            "Fish_Pike",
+            "Fish_Carp",
+            "Fish_Amur",
+            "Fish_Chub",
+            "Fish_Ruffe",
+            "Fish_PrussianCarp",
+            "Fish_CrucianCarp"
           ],
           "RequiredNum": 5
         }

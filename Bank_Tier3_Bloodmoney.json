@@ -3,7 +3,7 @@
   "Tier": 3,
   "Title": "Dinheiro sujo",
   "Description": "Nem todo pagamento é feito em dinheiro vivo. Algumas dívidas são quitadas com dor. O banqueiro tem um acordo com algumas pessoas que preferem troféus a contas bancárias. Sua missão? Conseguir alguns... objetos de valor macabros. Sem perguntas. Apenas entregue.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 72.0,
   "RewardPool": [
     {
       "CurrencyNormal": 2000,

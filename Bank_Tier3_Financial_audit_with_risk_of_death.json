@@ -3,7 +3,7 @@
   "Tier": 3,
   "Title": "Auditoria financeira com risco de morte",
   "Description": "O banqueiro descobriu que uma fita cassete TEC1 lacrada — supostamente contendo dados confidenciais de transações dos estágios iniciais do programa — ainda está escondida em um antigo bloco de prisão. O que realmente tem lá dentro? Ninguém sabe. Mas os Fantoches a guardam como se fosse um deus. Divirta-se.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 72.0,
   "RewardPool": [
     {
       "CurrencyNormal": 3100,

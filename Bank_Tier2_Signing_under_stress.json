@@ -3,7 +3,7 @@
   "Tier": 2,
   "Title": "Assinar sob estresse",
   "Description": "O banqueiro quer assinar uma pilha de notas promissórias – em triplicado, claro. Infelizmente, todas as canetas utilizáveis ​​desapareceram. Você deveria receber um conjunto completo de canetas imediatamente.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 72.0,
   "RewardPool": [
     {
       "CurrencyNormal": 1500,

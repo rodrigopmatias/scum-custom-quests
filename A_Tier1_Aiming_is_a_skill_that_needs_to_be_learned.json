@@ -74,9 +74,9 @@
         },
         {
           "AcceptedItems": [
-            "Bundle_Wooden_Plank"
+            "Wooden_Plank"
           ],
-          "RequiredNum": 1
+          "RequiredNum": 2
         }
       ]
     }

@@ -3,10 +3,10 @@
   "Tier": 3,
   "Title": "Coquetéis e chuva de balas",
   "Description": "A bartender recebeu certa vez uma entrega de bebidas excelentes… infelizmente, por drone. A encomenda voou direto para uma base militar contaminada – segundo ela, um “pequeno problema de navegação”. Ela quer saber se o engradado ainda está lá. Ou pelo menos se o cheiro de tequila ainda está presente.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 72.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 2800,
+      "CurrencyNormal": 3800,
       "Fame": 15,
       "Skills": [
         {
@@ -33,11 +33,12 @@
       "Type": "Interaction",
       "Locations": [
         {
-          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Military_base_01.B_3_Military_base_01:PersistentLevel.SM_Crate_02_A_Military24.StaticMeshComponent0",
-          "FallbackTransform": "249833.875000,-34325.234375,24092.628906|0.000000,53.485905,0.000000|1.001000,1.001000,1.001000",
-          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/SM_Crate_02_A_Military.SM_Crate_02_A_Military",
-          "Instance": 1
-        }
+            "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Military_base_01.B_3_Military_base_01:PersistentLevel.SM_Crate_03_A_Military90_40.StaticMeshComponent0",
+            "FallbackTransform": "249739.437500,-34331.437500,24092.628906|0.000000,0.000000,0.000000|1.001000,1.001000,1.001000",
+            "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/SM_Crate_03_A_Military.SM_Crate_03_A_Military",
+            "Instance": 1
+
+        }        
       ],
       "MinNeeded": 1,
       "MaxNeeded": 1,

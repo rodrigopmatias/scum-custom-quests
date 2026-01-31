@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Matar marionetes",
+      "TrackingCaption": "Matar marionetes quero no minimo 10",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Elimination",

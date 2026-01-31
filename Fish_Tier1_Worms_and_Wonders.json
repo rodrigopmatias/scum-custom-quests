@@ -3,7 +3,7 @@
   "Tier": 1,
   "Title": "Vermes e Maravilhas",
   "Description": "As melhores pescarias começam com a isca certa – e o pescador perdeu suas últimas minhocas jogando cartas. Sem comentários. Sua tarefa é simples: consiga mais isca antes que o próximo frenesi alimentar comece. E não leve nada viscoso que não caiba no anzol.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 450,

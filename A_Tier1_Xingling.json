@@ -1,0 +1,98 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Naum tem galantia",
+  "Description": "Vasculhe lojas chinesas.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Tactics",
+          "Experience": 1000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "2H_Katana1",
+          "Price": 5000,
+          "Amount": 1,
+          "Fame": 25,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Vaculhe a loja 1",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_44_Block_02_Interior_01.D_4_Samobor_44_Block_02_Interior_01:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese_4.InteriorStaticMesh22",
+          "FallbackTransform": "365032.437500,318057.843750,20231.833984|0.000000,-9.999369,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Market/SM_Market_Desk_01_Flipped.SM_Market_Desk_01_Flipped",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_44_Block_02_Interior_01.D_4_Samobor_44_Block_02_Interior_01:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese_4.InteriorStaticMesh18",
+          "FallbackTransform": "364337.125000,318163.312500,20231.923828|0.000000,-9.999498,0.000000|1.201000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Market/SM_Market_Desk_01_Flipped.SM_Market_Desk_01_Flipped",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 365153.781,
+            "Y": 318215.312,
+            "Z": 20322.883
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Vaculhe a loja 2",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_05_Block_02_Interior_01.D_4_Samobor_05_Block_02_Interior_01:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese_Int.InteriorStaticMesh22",
+          "FallbackTransform": "346138.437500,368631.593750,20691.156250|0.000000,-162.066864,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Market/SM_Market_Desk_01_Flipped.SM_Market_Desk_01_Flipped",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_05_Block_02_Interior_01.D_4_Samobor_05_Block_02_Interior_01:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese_Int.InteriorStaticMesh18",
+          "FallbackTransform": "346802.156250,368864.125000,20691.246094|0.000000,-162.067001,0.000000|1.201000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Market/SM_Market_Desk_01_Flipped.SM_Market_Desk_01_Flipped",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 346123.281,
+            "Y": 368394.406,
+            "Z": 20782.205
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "Tier": 2,
   "Title": "Porcos nos juncos",
   "Description": "Um javali selvagem costuma rondar os melhores pontos de pesca – e não só está espantando os peixes, como também já roubou dois baldes. O pescador não aguenta mais. É preciso controlar a população desses animais. E é melhor não trazer nenhuma sujeira de volta.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 1500,

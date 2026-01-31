@@ -34,10 +34,9 @@
       "Type": "Interaction",
       "Locations": [
         {
-          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Rogoznica_03.Z_3_Rogoznica_03:PersistentLevel.SM_radiostation_117.StaticMeshComponent0",
-          "FallbackTransform": "157452.000000,-703696.250000,1162.669922|0.000000,-144.173508,0.000000|1.001000,1.001000,1.001000",
-          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Military/MilitaryFieldCamp/Meshes/SM_radiostation_4.SM_radiostation_4",
-          "Instance": 3
+            "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Rogoznica_03.Z_3_Rogoznica_03:PersistentLevel.SM_radiostation_117.StaticMeshComponent0",
+            "FallbackTransform": "157452.000000,-703696.250000,1162.670166|0.000000,-144.173508,0.000000|1.001000,1.001000,1.001000",
+            "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Military/MilitaryFieldCamp/Meshes/SM_radio_station_4.SM_radio_station_4"
         }
       ],
       "MinNeeded": 1,

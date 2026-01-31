@@ -27,7 +27,7 @@
       "RequiredItems": [
         {
           "AcceptedItems": [
-            "GasTank",
+            "GasTank"
           ],
           "RequiredNum": 1,
           "MinAcceptedItemUses": 1

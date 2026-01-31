@@ -3,7 +3,7 @@
   "Tier": 2,
   "Title": "Peixarada 02.",
   "Description": "O estoque de peixes esta baixo e quero evitar a fadiga, me arrume alguns peixes.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 2000,

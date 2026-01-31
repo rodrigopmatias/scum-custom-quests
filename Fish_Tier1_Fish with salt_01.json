@@ -3,7 +3,7 @@
   "Tier": 1,
   "Title": "Peixarada 01.",
   "Description": "O estoque de peixes esta baixo e quero evitar a fadiga, me arrume alguns peixes.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 750,
@@ -30,7 +30,7 @@
             "Fish_Sardine",
             "Fish_Dentex",
             "Fish_Orata",
-			"Fish_Tuna"
+			      "Fish_Tuna"
           ],
           "RequiredNum": 5
         }
