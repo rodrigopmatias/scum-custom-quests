@@ -3,7 +3,7 @@
   "Tier": 2,
   "Title": "O exame de caça",
   "Description": "O traficante de armas quer provar seu valor — com um sucesso impressionante na caçada. Você deve abater um animal selvagem para ele, para que ele possa alegar posteriormente que foi ele quem o matou. Moralmente questionável? Sim. Mas o pagamento é bom.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 1500,

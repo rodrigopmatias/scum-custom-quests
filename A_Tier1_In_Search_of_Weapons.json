@@ -1,0 +1,104 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "A procura de armas",
+  "Description": "Informantes me falaram que na cidade grande tem algumas armas especiais, vasculhe caixas em lojas de armas.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Interaja com caixa na loja de armas.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_22_Interior_01.D_4_Samobor_22_Interior_01:PersistentLevel.BP_2_Floor_Building_04_Military_Corner_CLOSED2.SM_MilitaryCrateClosed_04_0_ISMA",
+          "FallbackTransform": "285113.250000,374203.281250,22156.371094|0.000000,108.580276,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/MilitaryCrates/Geometry/SM_MilitaryCrateClosed_04.SM_MilitaryCrateClosed_04"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 0,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 285154.031,
+            "Y": 374064.938,
+            "Z": 22140.027
+          },
+          "SizeFactor": 0.5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Interaja com caixa na loja de armas.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_01_Interior_03.D_4_Samobor_01_Interior_03:PersistentLevel.BP_2_Floor_Building_04_Military_Corner_CLOSED_Int.SM_MilitaryCrateClosed_04_0_ISMA",
+          "FallbackTransform": "331233.750000,366073.125000,21077.855469|0.000000,-144.719345,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/MilitaryCrates/Geometry/SM_MilitaryCrateClosed_04.SM_MilitaryCrateClosed_04",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 331326.219,
+            "Y": 366183.062,
+            "Z": 21061.512
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Interaja com caixa na loja de armas.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_08_Interior_01.D_4_Samobor_08_Interior_01:PersistentLevel.BP_2_Floor_Building_05_Military_Shop_Closed_2.HierarchicalInstancedStaticMesh5",
+          "FallbackTransform": "324689.343750,345161.468750,21134.939453|0.000000,-72.721924,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/MilitaryCrates/Geometry/SM_MilitaryCrateClosed_02.SM_MilitaryCrateClosed_02",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 324723.5,
+            "Y": 345004.438,
+            "Z": 21188.172
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

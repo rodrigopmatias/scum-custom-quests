@@ -3,7 +3,7 @@
   "Tier": 3,
   "Title": "Operação: Salada de Metal",
   "Description": "O traficante de armas quer saber o que um humano realmente pode fazer contra uma máquina – puramente do ponto de vista científico, é claro. Sua tarefa é desativar um mecha ativo para demonstrar que precisão e coragem ainda podem prevalecer contra blindagem. E talvez um toque de loucura também.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 8000,

@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Obtenha 5 cartões azul.",
+      "TrackingCaption": "Obtenha 3 cartões azul.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
@@ -29,7 +29,7 @@
           "AcceptedItems": [
             "KeyCardBunker_Level01"
           ],
-          "RequiredNum": 5
+          "RequiredNum": 3
         }
       ]
     }

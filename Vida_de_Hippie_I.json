@@ -23,7 +23,7 @@
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
       "DisablePurchaseOfRequiredItems": false,
-      "PlayerKeepsItems": true,
+      "PlayerKeepsItems": false,
       "RequiredItems": [
         {
           "AcceptedItems": [

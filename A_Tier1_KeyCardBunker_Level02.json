@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Obtenha 3 cartões amarelo.",
+      "TrackingCaption": "Obtenha 1 cartões amarelo.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
@@ -29,7 +29,7 @@
           "AcceptedItems": [
             "KeyCardBunker_Level02"
           ],
-          "RequiredNum": 3
+          "RequiredNum": 1
         }
       ]
     }

@@ -3,7 +3,7 @@
   "Tier": 3,
   "Title": "Bem lá no fundo, bem escondido",
   "Description": "Uma caixa contendo peças raras de veículos está supostamente escondida em um antigo poço de mina – pelo menos, é o que afirma um negociante nervoso, que estava lá não por vontade própria. O mecânico precisa desesperadamente dessas peças, mas o local é considerado perigoso. Você deve ir até lá, recuperar a caixa e, já que está lá embaixo, eliminar alguns dos habitantes locais barulhentos que se instalaram no local.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 72.0,
   "RewardPool": [
     {
       "CurrencyNormal": 3600,
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "TrackingCaption": "Defeat at least 5 Puppets while you're there.",
+      "TrackingCaption": "Mate ao menos 5 zombies ao estiver la.",
       "SequenceIndex": 1,
       "CanBeAutoCompleted": true,
       "Type": "Elimination",

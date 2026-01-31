@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Obtenha 3 Magazine quaisquer.",
+      "TrackingCaption": "Obtenha 3 Magazines lixos.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
@@ -27,31 +27,18 @@
       "RequiredItems": [
         {
           "AcceptedItems": [
-            "Magazine_AK15",
-            "Magazine_AK47",
             "Magazine_AKS_74U",
-            "Magazine_AS_Val",
             "Magazine_AWM",
             "Magazine_AWP",
-            "Magazine_Block21",
             "Magazine_CarbonHunter",
             "Magazine_DEagle_357",
             "Magazine_DEagle_50",
             "Magazine_HS9",
             "Magazine_Hunter85_V2",
             "Magazine_Krueger",
-            "Magazine_M16",
             "Magazine_M1911",
-            "Magazine_M249",
-            "Magazine_M82A1",
-            "Magazine_M9",
             "Magazine_MAC10",
-            "Magazine_MP5",
-            "Magazine_RPK",
-            "Magazine_SCAR_DMR",
             "Magazine_SF19",
-            "Magazine_SVD_Dragunov",
-            "Magazine_UMP45",
             "Magazine_VHS2"
           ],
           "RequiredNum": 3

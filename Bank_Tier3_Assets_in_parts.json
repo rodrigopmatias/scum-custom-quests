@@ -3,7 +3,7 @@
   "Tier": 3,
   "Title": "Ativos em partes",
   "Description": "O mercado negro de peças de carro está bombando – principalmente quando as peças ainda estão quentes. O banqueiro encontrou um comprador interessado em peças de Rager. Ele precisa de um banco de passageiro para o próximo encontro. Ninguém se importa de onde você conseguiu. Só certifique-se de que esteja sem arranhões e sem perguntas.",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 1800,
