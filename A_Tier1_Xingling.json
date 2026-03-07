@@ -27,7 +27,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Vaculhe a loja 1",
+      "TrackingCaption": "Vaculhe a loja do guindaste caido",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "TrackingCaption": "Vaculhe a loja 2",
+      "TrackingCaption": "Vaculhe a loja do rio",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",

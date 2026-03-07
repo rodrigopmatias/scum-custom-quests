@@ -6,7 +6,7 @@
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 690,
+      "CurrencyNormal": 750,
       "Fame": 5,
       "Skills": [
         {
@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Procure sabonete e uma garrafa de água com água suficiente.",
+      "TrackingCaption": "Procure sabonete.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Fetch",
@@ -32,6 +32,16 @@
           "RequiredNum": 1,
           "RandomAdditionalRequiredNum": 1
         },
+      ]
+    },
+      {
+      "TrackingCaption": "Garrafa de água com água suficiente.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
         {
           "AcceptedItems": [
             "Water_05l"
@@ -42,7 +52,7 @@
       ]
     },
     {
-      "TrackingCaption": "Deixe o kit de limpeza com o vendedor de armas.",
+      "TrackingCaption": "Deixe o kit de limpeza em um armario com o vendedor de armas.",
       "SequenceIndex": 1,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",

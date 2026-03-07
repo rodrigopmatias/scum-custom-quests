@@ -6,7 +6,7 @@
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 400,
+      "CurrencyNormal": 750,
       "Fame": 5,
       "Skills": [
         {
@@ -43,6 +43,7 @@
             "Tangerine",
             "Apple",
             "Apple_2",
+            "Fig",
             "Wild_Cherry",
             "Blackberry",
             "Wild_Strawberry",

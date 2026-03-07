@@ -1,0 +1,114 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Oficina Grande",
+  "Description": "O mecânico esta ampliando os negocios e esta avaliando oficinas especiais. Avalie elevadores de veiculos nas oficinas da cidade grande Traga um carjacks de la ",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Driving",
+          "Experience": 3000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Car_Jack",
+          "Price": 1000,
+          "Amount": 1,
+          "Fame": 25,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Oficina da feira",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_35_Interior_02.D_4_Samobor_35_Interior_02:PersistentLevel.BP_Car_Repair_Shop_2.SM_Car_Lift",
+          "FallbackTransform": "328025.406250,384128.125000,21062.333984|0.000000,15.610410,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_CarWorkshop_Lift_01.SM_CarWorkshop_Lift_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_35_Interior_02.D_4_Samobor_35_Interior_02:PersistentLevel.BP_Car_Repair_Shop_2.SM_Car_Lift_02",
+          "FallbackTransform": "328892.218750,384370.312500,21062.333984|0.000000,15.610410,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_CarWorkshop_Lift_01.SM_CarWorkshop_Lift_01",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 328551.344,
+            "Y": 383927.156,
+            "Z": 21154.477
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Oficina du rio",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_45_Interior_01.D_4_Samobor_45_Interior_01:PersistentLevel.BP_Car_Repair_Shop_opt_2.SM_Car_Lift",
+          "FallbackTransform": "363205.406250,345415.750000,21523.517578|0.000000,169.252731,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_CarWorkshop_Lift_01.SM_CarWorkshop_Lift_01",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_45_Interior_01.D_4_Samobor_45_Interior_01:PersistentLevel.BP_Car_Repair_Shop_opt_2.SM_Car_Lift_02",
+          "FallbackTransform": "362321.187500,345583.562500,21523.517578|0.000000,169.252731,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_CarWorkshop_Lift_01.SM_CarWorkshop_Lift_01",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 362834.906,
+            "Y": 345831.906,
+            "Z": 21615.598
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Car Jack graaande",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Car_Jack"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

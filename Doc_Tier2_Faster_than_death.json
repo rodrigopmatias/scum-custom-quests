@@ -3,7 +3,7 @@
   "Tier": 2,
   "Title": "Mais rápido que a morte",
   "Description": "Uma sobrevivente alega ter sido atacada por um burro selvagem. O médico não acredita em uma palavra sequer da história, mas afirma que a vítima está um pouco em pânico e precisa urgentemente de algum consolo. A solução é providenciar algo calmante e garantir que não haja mais burros por perto. Cuidar de um animal de quatro patas já é suficiente. De qualquer forma, o ferimento não parece ter sido causado por um burro...",
-  "TimeLimitHours": 48.0,
+  "TimeLimitHours": 168.0,
   "RewardPool": [
     {
       "CurrencyNormal": 880,

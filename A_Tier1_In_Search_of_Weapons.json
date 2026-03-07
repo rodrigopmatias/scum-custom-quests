@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Interaja com caixa na loja de armas.",
+      "TrackingCaption": "Interaja com caixa na loja de armas em (d3).",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "TrackingCaption": "Interaja com caixa na loja de armas.",
+      "TrackingCaption": "Interaja com caixa na loja de armas (d4 bar).",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "TrackingCaption": "Interaja com caixa na loja de armas.",
+      "TrackingCaption": "Interaja com caixa na loja de armas (d4 guindaste).",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",

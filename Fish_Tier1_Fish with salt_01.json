@@ -1,12 +1,12 @@
 {
   "AssociatedNpc": "Harbourmaster",
   "Tier": 1,
-  "Title": "Peixarada 01.",
+  "Title": "Peixarada Salgada.",
   "Description": "O estoque de peixes esta baixo e quero evitar a fadiga, me arrume alguns peixes.",
   "TimeLimitHours": 168.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 750,
+      "CurrencyNormal": 1000,
       "Fame": 5,
       "Skills": [
         {
@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Mostre seu talento na pesca, me traga  5 peixes quaisquer.",
+      "TrackingCaption": "Mostre seu talento na pesca, me traga  3 peixes salgadinhos.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
@@ -32,7 +32,7 @@
             "Fish_Orata",
 			      "Fish_Tuna"
           ],
-          "RequiredNum": 5
+          "RequiredNum": 3
         }
       ]
     }

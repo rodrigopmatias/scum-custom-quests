@@ -1,0 +1,91 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Sirva-se de um pouco",
+  "Description": "O mecânico esta a tantos anos girando a chave inglesa tentando arrumar o cabeçote do motor na mesa dele,  o motor em questão é de uma sucata em cima do telhado da oficina, da uma checada la nas dimensões do carro pra ver se os anos de ferrugem não deformaram o bixim.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1400,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 2500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Verificar estabilidade.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Outpost_Ext_Mechanic.C_2_Outpost_Ext_Mechanic:PersistentLevel.BP_Outpost_CarShop_Building2.Roof_Car",
+          "FallbackTransform": "-154513.484375,289438.437500,70300.031250|0.000000,95.511902,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Vehicles/Cars/Pickup_01/SM_Pickup_01_B_Damage.SM_Pickup_01_B_Damage",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_0_Outpost_Ext_Mechanic.A_0_Outpost_Ext_Mechanic:PersistentLevel.BP_Outpost_CarShop_Building_3.Roof_Car",
+          "FallbackTransform": "-616945.375000,-553976.500000,3070.308594|0.000000,-14.454184,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Vehicles/Cars/Pickup_01/SM_Pickup_01_B_Damage.SM_Pickup_01_B_Damage",
+          "Instance": 4
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Outpost_Ext_Mechanic.Z_3_Outpost_Ext_Mechanic:PersistentLevel.BP_Outpost_CarShop_Building_2.Roof_Car",
+          "FallbackTransform": "20262.011719,-674136.562500,955.041565|0.000000,-48.754623,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Vehicles/Cars/Pickup_01/SM_Pickup_01_B_Damage.SM_Pickup_01_B_Damage",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_4_Outpost_Ext_Mechanic.B_4_Outpost_Ext_Mechanic:PersistentLevel.BP_Outpost_CarShop_Building2_2.Roof_Car",
+          "FallbackTransform": "573268.562500,-224581.406250,967.255371|0.000000,-100.813507,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Vehicles/Cars/Pickup_01/SM_Pickup_01_B_Damage.SM_Pickup_01_B_Damage",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -154290.672,
+            "Y": 288374.375,
+            "Z": 70253.609
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": -618101.688,
+            "Y": -553828.875,
+            "Z": 3020.809
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": 19154.66,
+            "Y": -673344.312,
+            "Z": 871.182
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": 573177.188,
+            "Y": -223275.453,
+            "Z": 875.896
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

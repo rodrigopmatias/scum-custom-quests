@@ -6,7 +6,7 @@
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 500,
+      "CurrencyNormal": 750,
       "Fame": 5,
       "Skills": [
         {
@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Colete um flutuador improvisado, uma linha de pesca improvisada e 2 isqueiros.",
+      "TrackingCaption": "Colete um flutuador.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Fetch",
@@ -27,21 +27,47 @@
       "RequiredItems": [
         {
           "AcceptedItems": [
-            "ImprovisedFishingFloater"
+            "ImprovisedFishingFloater",
+            "FishingFloater",
+            "FishingFloater1"
           ],
           "RequiredNum": 1
         },
+      ]
+    },
+    {
+      "TrackingCaption": "Colete uma linha de pesca.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
         {
           "AcceptedItems": [
-            "Improvised_FishingLine"
+            "Improvised_FishingLine",
+            "FishingLinePiece_1",
+            "FishingLinePiece_2",
+            "FishingLinePiece_3",
+            "FishingLinePiece_4"
           ],
           "RequiredNum": 1
-        },
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Colete um isqueiro.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
         {
           "AcceptedItems": [
             "Tinder"
           ],
-          "RequiredNum": 2
+          "RequiredNum": 1
         }
       ]
     }

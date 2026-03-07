@@ -1,8 +1,8 @@
 {
   "AssociatedNpc": "Harbourmaster",
   "Tier": 1,
-  "Title": "Peixarada 01.",
-  "Description": "O estoque de peixes esta baixo e quero evitar a fadiga, me arrume alguns peixes.",
+  "Title": "Peixarada Doce.",
+  "Description": "O estoque de peixes esta baixo e quero evitar a fadiga, me arrume alguns peixes docinhos.",
   "TimeLimitHours": 168.0,
   "RewardPool": [
     {
@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Mostre seu talento na pesca, me traga  5 peixes quaisquer.",
+      "TrackingCaption": "Mostre seu talento na pesca, me traga  3 peixes de agua doce.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
@@ -27,17 +27,17 @@
       "RequiredItems": [
         {
           "AcceptedItems": [
-			"Fish_Bass",
+            "Fish_Bass",
             "Fish_Catfish",
-			"Fish_Pike",
-			"Fish_Carp",
-			"Fish_Amur",
-			"Fish_Chub",
-			"Fish_Ruffe",
-			"Fish_PrussianCarp",
-			"Fish_CrucianCarp"
+            "Fish_Pike",
+            "Fish_Carp",
+            "Fish_Amur",
+            "Fish_Chub",
+            "Fish_Ruffe",
+            "Fish_PrussianCarp",
+            "Fish_CrucianCarp"
           ],
-          "RequiredNum": 5
+          "RequiredNum": 3
         }
       ]
     }

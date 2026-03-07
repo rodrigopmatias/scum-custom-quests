@@ -5,7 +5,7 @@
 	"Description": "Uma prateleira desabou no armazém do comerciante. A última entrega de parafusos estava... incompleta. Você deveria receber novos — de preferência antes que o teto desabe sobre a cabeça dele.",
 	"RewardPool": [
 		{
-			"CurrencyNormal": 500,
+			"CurrencyNormal": 750,
 			"Fame": 5,
 			"Skills": [
 				{
@@ -20,7 +20,7 @@
 			"Type": "Fetch",
 			"SequenceIndex": 0,
 			"CanBeAutoCompleted": false,
-			"TrackingCaption": "Obtenha pregos ou parafusos da área circundante.",
+			"TrackingCaption": "Traga pregos ou parafusos.",
 			"DisablePurchaseOfRequiredItems": true,
 			"PlayerKeepsItems": false,
 			"RequiredItems": [

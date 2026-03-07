@@ -1,12 +1,12 @@
 {
   "AssociatedNpc": "Harbourmaster",
   "Tier": 1,
-  "Title": "Peixarada 01.",
+  "Title": "Peixarada 01 buceta 3.",
   "Description": "O estoque de peixes esta baixo e quero evitar a fadiga, me arrume alguns peixes.",
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 750,
+      "CurrencyNormal": 1000,
       "Fame": 5,
       "Skills": [
         {
@@ -22,7 +22,7 @@
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
-      "DisablePurchaseOfRequiredItems": true,
+      "DisablePurchaseOfRequiredItems": false,
       "PlayerKeepsItems": false,
       "RequiredItems": [
         {
@@ -41,7 +41,7 @@
             "Fish_PrussianCarp",
             "Fish_CrucianCarp"
           ],
-          "RequiredNum": 5
+          "RequiredNum": 5  
         }
       ]
     }

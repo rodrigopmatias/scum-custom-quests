@@ -1,0 +1,67 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Madeira de qualidade",
+  "Description": "Estou precisando aumentar meu galpão de bagaceiras, mas preciso de madeiras de qualidade, la em D2 tem umas maquinas de corte profissional , verifique se tem qualidade mesmo.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Experience": 2400
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Verifique maquinas de corte na madereira em D2.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_2_Saw_Mill_04_Int.D_2_Saw_Mill_04_Int:PersistentLevel.BP_Saw_Mill_Main_Int_2.SM_Band_Saw_01_RW_StaticMeshComponent0",
+          "FallbackTransform": "-91653.445312,494230.687500,44521.218750|0.000000,162.024124,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Saw_Mill/Buildings/SM_Band_Saw_01_RW.SM_Band_Saw_01_RW",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_2_Saw_Mill_04_Int.D_2_Saw_Mill_04_Int:PersistentLevel.BP_Saw_Mill_Main_Int_2.SM_Band_Saw_01_RW2_StaticMeshComponent0",
+          "FallbackTransform": "-91123.164062,494058.656250,44521.218750|0.000000,162.024124,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Saw_Mill/Buildings/SM_Band_Saw_01_RW.SM_Band_Saw_01_RW",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_2_Saw_Mill_04_Int.D_2_Saw_Mill_04_Int:PersistentLevel.BP_Saw_Mill_Main_Int_2.SM_Band_Saw_01_RW4_StaticMeshComponent0",
+          "FallbackTransform": "-92766.710938,492536.750000,44521.222656|0.000000,72.023941,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Saw_Mill/Buildings/SM_Band_Saw_01_RW.SM_Band_Saw_01_RW",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_2_Saw_Mill_04_Int.D_2_Saw_Mill_04_Int:PersistentLevel.BP_Saw_Mill_Main_Int_2.SM_Band_Saw_01_RW3_StaticMeshComponent0",
+          "FallbackTransform": "-92576.757812,493122.218750,44521.218750|0.000000,72.023941,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Saw_Mill/Buildings/SM_Band_Saw_01_RW.SM_Band_Saw_01_RW",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -91458.867,
+            "Y": 493844.094,
+            "Z": 44613.367
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

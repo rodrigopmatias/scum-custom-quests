@@ -6,7 +6,7 @@
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 500,
+      "CurrencyNormal": 750,
       "Fame": 5,
       "Skills": [
         {
@@ -18,7 +18,24 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Reúna 4 pedaços de tecido, 1 corda e 1 pedaço de fita adesiva.",
+      "TrackingCaption": "Reúna 4 pedaços de tecido.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Rag_Stripes",
+			"Rags"
+          ],
+          "RequiredNum": 4
+        },
+      ]
+    },
+    {
+      "TrackingCaption": "1 Corda.",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Fetch",
@@ -33,13 +50,17 @@
           ],
           "RequiredNum": 1,
           "MinAcceptedItemUses": 5
-        },
-        {
-          "AcceptedItems": [
-            "Rag_Stripes"
-          ],
-          "RequiredNum": 4
-        },
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "1 pedaço de fita adesiva.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
         {
           "AcceptedItems": [
             "Duct_Tape"
@@ -48,6 +69,6 @@
           "MinAcceptedItemUses": 5
         }
       ]
-    }
+    },
   ]
 }

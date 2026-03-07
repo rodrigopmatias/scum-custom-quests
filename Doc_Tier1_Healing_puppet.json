@@ -1,0 +1,86 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "A procura do paciente 0",
+  "Description": "O medico tem uma desconfiança um tratamento experimental surgiu no sanatorio da cidade grande, porem relatos dizem que o pesquisador foi empurrado de um lugar alto, va la e verifique o elevador e o alçapão da escadaria pra descobrir pistas da cura do zubinismo.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 3000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Emergency_bandage_Big",
+          "Price": 1000,
+          "Amount": 1,
+          "Fame": 25,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Interaja com o elevador",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_4_Sanitarium_INT.C_4_Sanitarium_INT:PersistentLevel.BP_Main_Hospital_Building_02_INT_01.SM_Main_Hospital_Building_02_Elevator_01",
+          "FallbackTransform": "374281.187500,291204.875000,19578.849609|0.000000,19.999601,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Hospital/Main_Hospital_Building_02/Objects/SM_Main_Hospital_Building_02_Elevator.SM_Main_Hospital_Building_02_Elevator",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 374140.875,
+            "Y": 291587.625,
+            "Z": 19696.383
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Interaja com alçapões da escadaria",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_4_Sanitarium.C_4_Sanitarium:PersistentLevel.BP_Prison_Hatch_Door_OPT_GEN_VARIABLE_BP_Prison_Hatch_Door_OPT_C_CAT_773.Door Mesh",
+          "FallbackTransform": "375469.062500,300840.906250,20995.451172|0.000000,19.999660,-179.999985|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_Hatch_01_Door.SM_Hatch_01_Door",
+          "Instance": 773
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 376693.875,
+            "Y": 298242.125,
+            "Z": 19661.924
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}
