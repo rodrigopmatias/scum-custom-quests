@@ -1,7 +1,7 @@
 {
   "AssociatedNpc": "Armorer",
   "Tier": 1,
-  "Title": "Naum tem galantia",
+  "Title": "Sem galantia",
   "Description": "Vasculhe lojas chinesas.",
   "TimeLimitHours": 48.0,
   "RewardPool": [
@@ -48,7 +48,7 @@
       "MinNeeded": 1,
       "MaxNeeded": 2,
       "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 5,
+      "WorldMarkerShowDistance": 100,
       "LocationsShownOnMap": [
         {
           "Location": {
@@ -56,7 +56,7 @@
             "Y": 318215.312,
             "Z": 20322.883
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 0.3
         }
       ]
     },
@@ -82,7 +82,7 @@
       "MinNeeded": 1,
       "MaxNeeded": 2,
       "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 5,
+      "WorldMarkerShowDistance": 100,
       "LocationsShownOnMap": [
         {
           "Location": {
@@ -90,7 +90,7 @@
             "Y": 368394.406,
             "Z": 20782.205
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 0.3
         }
       ]
     }

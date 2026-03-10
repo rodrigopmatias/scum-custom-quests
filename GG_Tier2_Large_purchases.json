@@ -1,0 +1,159 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Compras",
+  "Description": "O comerciante precisa de algumas itens que só se acha na cidade grande, procure itens em prateleiras de mercados na cidade grande",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 3000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Visite o supermercado",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_49_Interior.D_4_Samobor_49_Interior:PersistentLevel.BP_SuperMarket_Large_2.HierarchicalInstancedStaticMesh_Shelve_09",
+          "FallbackTransform": "300022.312500,320466.531250,22325.808594|0.000000,-81.644829,0.000000|1.001001,1.001001,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_49_Interior.D_4_Samobor_49_Interior:PersistentLevel.BP_SuperMarket_Large_2.HierarchicalInstancedStaticMesh_Shelve_09",
+          "FallbackTransform": "300166.281250,320481.656250,22325.810547|0.000000,-6.644808,0.000000|1.001001,1.001001,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_49_Interior.D_4_Samobor_49_Interior:PersistentLevel.BP_SuperMarket_Large_2.HierarchicalInstancedStaticMesh_Shelve_09",
+          "FallbackTransform": "299749.500000,320706.500000,22325.810547|0.000000,58.355137,0.000000|1.000999,1.000999,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_49_Interior.D_4_Samobor_49_Interior:PersistentLevel.BP_SuperMarket_Large_2.HierarchicalInstancedStaticMesh_Shelve_09",
+          "FallbackTransform": "300452.312500,320287.343750,22325.808594|0.000000,13.355184,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_49_Interior.D_4_Samobor_49_Interior:PersistentLevel.BP_SuperMarket_Large_2.HierarchicalInstancedStaticMesh_Shelve_09",
+          "FallbackTransform": "300886.687500,319942.125000,22325.808594|0.000000,-61.644905,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 4
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_49_Interior.D_4_Samobor_49_Interior:PersistentLevel.BP_SuperMarket_Large_2.HierarchicalInstancedStaticMesh_Shelve_09",
+          "FallbackTransform": "301440.625000,319701.156250,22325.810547|0.000000,-41.644890,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 6
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 6,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 300078.812,
+            "Y": 320255.938,
+            "Z": 22417.959
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Visite mercado pequeno d3",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_27_Interior_02.D_4_Samobor_27_Interior_02:PersistentLevel.BP_Supermarket_Medium4.InstancedStaticMesh15",
+          "FallbackTransform": "293986.562500,413511.656250,21886.500000|0.000000,101.836540,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_27_Interior_02.D_4_Samobor_27_Interior_02:PersistentLevel.BP_Supermarket_Medium4.InstancedStaticMesh15",
+          "FallbackTransform": "294406.562500,414292.187500,21889.958984|0.000000,-10.332528,0.000000|0.972326,1.157769,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_27_Interior_02.D_4_Samobor_27_Interior_02:PersistentLevel.BP_Supermarket_Medium4.InstancedStaticMesh15",
+          "FallbackTransform": "294815.625000,413691.031250,21886.500000|0.000000,88.297462,0.000000|0.972326,1.157769,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 3,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 294364.781,
+            "Y": 413443.438,
+            "Z": 21978.65
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Visite mercado pequeno d4",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_46_Block_03_Interior_01.D_4_Samobor_46_Block_03_Interior_01:PersistentLevel.BP_Supermarket_Medium4.InstancedStaticMesh15",
+          "FallbackTransform": "373602.625000,378610.906250,20260.585938|0.000000,-76.524155,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_46_Block_03_Interior_01.D_4_Samobor_46_Block_03_Interior_01:PersistentLevel.BP_Supermarket_Medium4.InstancedStaticMesh15",
+          "FallbackTransform": "373205.156250,377818.687500,20264.044922|0.000000,171.306763,0.000000|0.972326,1.157769,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_46_Block_03_Interior_01.D_4_Samobor_46_Block_03_Interior_01:PersistentLevel.BP_Supermarket_Medium4.InstancedStaticMesh15",
+          "FallbackTransform": "372779.031250,378407.875000,20260.585938|0.000000,-90.063225,0.000000|0.972326,1.157769,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/SuperMarket_Large/Objects/SM_Supermarket_Shelve_04.SM_Supermarket_Shelve_04",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 3,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 372996.156,
+            "Y": 378832.531,
+            "Z": 20352.736
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    }
+  ]
+}

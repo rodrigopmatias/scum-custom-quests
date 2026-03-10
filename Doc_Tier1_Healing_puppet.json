@@ -1,12 +1,12 @@
 {
   "AssociatedNpc": "Doctor",
   "Tier": 1,
-  "Title": "A procura do paciente 0",
-  "Description": "O medico tem uma desconfiança um tratamento experimental surgiu no sanatorio da cidade grande, porem relatos dizem que o pesquisador foi empurrado de um lugar alto, va la e verifique o elevador e o alçapão da escadaria pra descobrir pistas da cura do zubinismo.",
+  "Title": "Paciente 0",
+  "Description": "O medico tem uma desconfiança um tratamento experimental surgiu no sanatorio da cidade grande,   porem relatos dizem que o pesquisador foi empurrado de um lugar alto, va la e verifique o elevador e o lixo no teto do predio para procurar pistas da cura do zubinismo.",
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1000,
+      "CurrencyNormal": 1500,
       "Fame": 5,
       "Skills": [
         {
@@ -42,7 +42,7 @@
       "MinNeeded": 1,
       "MaxNeeded": 1,
       "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 5,
+      "WorldMarkerShowDistance": 100,
       "LocationsShownOnMap": [
         {
           "Location": {
@@ -50,7 +50,7 @@
             "Y": 291587.625,
             "Z": 19696.383
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 0.3
         }
       ]
     },
@@ -61,16 +61,15 @@
       "Type": "Interaction",
       "Locations": [
         {
-          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_4_Sanitarium.C_4_Sanitarium:PersistentLevel.BP_Prison_Hatch_Door_OPT_GEN_VARIABLE_BP_Prison_Hatch_Door_OPT_C_CAT_773.Door Mesh",
-          "FallbackTransform": "375469.062500,300840.906250,20995.451172|0.000000,19.999660,-179.999985|1.001000,1.001000,1.001000",
-          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_Hatch_01_Door.SM_Hatch_01_Door",
-          "Instance": 773
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_4_Sanitarium.C_4_Sanitarium:PersistentLevel.BP_Main_Hospital_Building_01_01.SM_Trash_Set_02a_01",
+          "FallbackTransform": "375670.156250,299693.218750,20999.007812|0.000000,59.999672,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Small_trash/TrashMerged/SM_Trash_Set_02a.SM_Trash_Set_02a"
         }
       ],
       "MinNeeded": 1,
       "MaxNeeded": 1,
       "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 5,
+      "WorldMarkerShowDistance": 100,
       "LocationsShownOnMap": [
         {
           "Location": {
@@ -78,7 +77,7 @@
             "Y": 298242.125,
             "Z": 19661.924
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 0.3
         }
       ]
     }

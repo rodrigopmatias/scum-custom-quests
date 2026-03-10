@@ -1,12 +1,12 @@
 {
   "AssociatedNpc": "Mechanic",
   "Tier": 1,
-  "Title": "Oficina Grande",
+  "Title": "Big Oficina",
   "Description": "O mecânico esta ampliando os negocios e esta avaliando oficinas especiais. Avalie elevadores de veiculos nas oficinas da cidade grande Traga um carjacks de la ",
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1000,
+      "CurrencyNormal": 1500,
       "Fame": 5,
       "Skills": [
         {
@@ -48,7 +48,7 @@
       "MinNeeded": 1,
       "MaxNeeded": 2,
       "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 5,
+      "WorldMarkerShowDistance": 100,
       "LocationsShownOnMap": [
         {
           "Location": {
@@ -56,7 +56,7 @@
             "Y": 383927.156,
             "Z": 21154.477
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 0.3
         }
       ]
     },
