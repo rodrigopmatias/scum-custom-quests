@@ -1,12 +1,12 @@
 {
   "AssociatedNpc": "Bartender",
   "Tier": 1,
-  "Title": "Alzheimer CUlinario!",
-  "Description": "A bartender esta precisando fazer algumas receitas, mas não lembra como fazer nada, consiga os livros de receita pra ela",
+  "Title": "Alzheimer Culinário!",
+  "Description": "A bartender esqueceu suas receitas. Encontre os livros para ajudá-la.",
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 750,
+      "CurrencyNormal": 1500,
       "Fame": 5,
       "Skills": [
         {
@@ -18,7 +18,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Traga a coleção de livros de receita",
+      "TrackingCaption": "Livro de BBQ",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
@@ -27,19 +27,139 @@
       "RequiredItems": [
         {
           "AcceptedItems": [
-            "Book_Cooking_BBQ",
-            "Book_Cooking_Cake",
-            "Book_Cooking_Rice",
-            "Book_Cooking_Soup",
-            "Book_Cooking_Stew",
-            "Book_Cooking_Pasta",
-            "Book_Cooking_Pizza",
-            "Book_Cooking_Drinks",
-            "Book_Cooking_Casseroles"          ],
-          "RequiredNum": 1,
-          "MinAcceptedItemHealth": 1.0
+            "Book_Cooking_BBQ"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Livro de Cake",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Cake"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Livro de Arroz",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Rice"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Livro de Sopa",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Soup"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },    
+    {
+      "TrackingCaption": "Livro de Ensopado",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Stew"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Livro de Macarrão",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Pasta"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Livro de Pizza",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Pizza"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Livro de Bebidas",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Drinks"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Livro de Cassarola",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Casseroles"
+          ],
+          "RequiredNum": 1
         }
       ]
     }
-  ]
+]
 }

@@ -3,7 +3,7 @@
   "Tier": 2,
   "Title": "Vou para praia II",
   "Description": "Preciso juntar alguns itens para pagar minha estadia na praia, aqueles idiotas adoram meus colares, mas estou sem tempo para produzi-los, pago bem para quem me ajudar com isto.",
-  "TimeLimitHours": 24.0,
+  "TimeLimitHours": 48.0,
   "RewardPool": [
     {
       "CurrencyNormal": 2600,

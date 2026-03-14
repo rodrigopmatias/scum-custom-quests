@@ -1,0 +1,101 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Pane eólica",
+  "Description": "Mecanico esta bolando umas gambiarras eletricas e pra isso precisa de peças de quadros de energia de eólicas, dê uma fuçada em quadros de energia das turbinas eólica  na região de Z, ahh... tb precisa de um kit eletrico e uma toolbox pra concretizar a gambiarra",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 1000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Car_Battery",
+          "Price": 500,
+          "Amount": 1,
+          "Fame": 25,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "eolicas z2",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_3.SM_Wind_Turbine_FuseBox",
+          "FallbackTransform": "-289089.968750,-826197.000000,20156.062500|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_FuseBox.SM_Wind_Turbine_FuseBox",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_1.SM_Wind_Turbine_FuseBox",
+          "FallbackTransform": "-268283.062500,-815896.562500,22890.699219|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_FuseBox.SM_Wind_Turbine_FuseBox",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_2.SM_Wind_Turbine_FuseBox",
+          "FallbackTransform": "-250978.937500,-812851.875000,25682.289062|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_FuseBox.SM_Wind_Turbine_FuseBox",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_0.SM_Wind_Turbine_FuseBox",
+          "FallbackTransform": "-230105.343750,-812021.375000,22464.501953|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_FuseBox.SM_Wind_Turbine_FuseBox",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -260223.234,
+            "Y": -817585.688,
+            "Z": 24305.061
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Traga um kit eletrico e kit de reparo",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Electrical_Repair_Kit",
+            "Electrician_Tools"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Tool_Box",
+            "Tool_Box_Small",
+            "Improvised_Tool_Box"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}
